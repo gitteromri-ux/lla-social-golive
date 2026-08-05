@@ -1,0 +1,1173 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Longevity Life Academy — Organic Social Go-Live Pack</title>
+<link rel="icon" href="assets/brand/lla-logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{--navy:#071426;--navy2:#0C2039;--ink:#F2EDE3;--blue:#7EC8FF;--sky:#A9CBFF;--line:rgba(242,237,227,.14);--dim:rgba(242,237,227,.62)}
+html{scroll-behavior:smooth}
+body{background:var(--navy);color:var(--ink);font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.55}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px;margin:0 auto;padding:0 28px}
+header.hero{padding:76px 0 54px;border-bottom:1px solid var(--line);background:
+ radial-gradient(1100px 460px at 12% -10%,rgba(126,200,255,.20),transparent 62%),
+ radial-gradient(760px 380px at 92% 0%,rgba(169,203,255,.13),transparent 60%)}
+.eyebrow{font-size:12px;letter-spacing:.34em;text-transform:uppercase;color:var(--blue);font-weight:600;margin-bottom:22px}
+h1{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(44px,6.4vw,86px);line-height:1.02;letter-spacing:-.015em;margin-bottom:22px}
+h1 em{font-style:italic;color:var(--sky)}
+.lede{font-size:clamp(17px,1.5vw,21px);color:var(--dim);max-width:780px}
+.statbar{display:flex;flex-wrap:wrap;gap:14px;margin-top:38px}
+.stat{border:1px solid var(--line);border-radius:14px;padding:14px 20px;background:rgba(255,255,255,.035)}
+.stat b{display:block;font-family:'Instrument Serif',Georgia,serif;font-size:30px;line-height:1;color:#fff}
+.stat span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--dim)}
+.howto{margin:44px 0 0;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:12px;padding:22px 26px;background:rgba(126,200,255,.06)}
+.howto h3{font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--blue);margin-bottom:12px}
+.howto ol{margin-left:20px;font-size:15px;color:var(--dim)}
+.howto li{margin-bottom:6px}
+nav.toc{padding:36px 0 12px;display:flex;flex-wrap:wrap;gap:10px}
+nav.toc a{border:1px solid var(--line);border-radius:999px;padding:9px 17px;font-size:13px;color:var(--ink);background:rgba(255,255,255,.03)}
+nav.toc a:hover{background:rgba(126,200,255,.16);text-decoration:none}
+h2.group{font-family:'Instrument Serif',Georgia,serif;font-weight:400;font-size:clamp(30px,3.4vw,46px);margin:64px 0 8px;letter-spacing:-.01em}
+.groupsub{color:var(--dim);font-size:15px;margin-bottom:26px}
+.card{border:1px solid var(--line);border-radius:20px;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));margin-bottom:26px;overflow:hidden}
+.chead{display:flex;flex-wrap:wrap;align-items:baseline;gap:14px;padding:26px 30px 18px;border-bottom:1px solid var(--line)}
+.cnum{font-family:'Instrument Serif',Georgia,serif;font-size:34px;color:var(--sky);line-height:1}
+.chead h3{font-size:22px;font-weight:600;letter-spacing:-.01em;flex:1 1 320px}
+.badge{font-size:11px;letter-spacing:.13em;text-transform:uppercase;border:1px solid var(--line);border-radius:999px;padding:6px 13px;color:var(--dim);white-space:nowrap}
+.badge.ig{color:#F9A8D4;border-color:rgba(249,168,212,.4)}
+.badge.fb{color:#93C5FD;border-color:rgba(147,197,253,.4)}
+.cbody{padding:26px 30px 30px;display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:30px}
+@media(max-width:860px){.cbody{grid-template-columns:1fr}}
+.prev video,.prev img{width:100%;border-radius:14px;display:block;background:#000;border:1px solid var(--line)}
+.prev .thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin-top:7px}
+.prev .thumbs img{border-radius:7px}
+.filelist{margin-top:14px}
+.filelist a{display:flex;justify-content:space-between;gap:10px;font-size:12.5px;padding:8px 11px;border:1px solid var(--line);border-radius:9px;margin-bottom:6px;background:rgba(0,0,0,.22)}
+.filelist a:hover{background:rgba(126,200,255,.13);text-decoration:none}
+.filelist .sz{color:var(--dim);white-space:nowrap}
+.block{margin-bottom:22px}
+.blabel{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:9px}
+.blabel h4{font-size:12px;letter-spacing:.19em;text-transform:uppercase;color:var(--blue);font-weight:600}
+.count{font-size:11px;color:var(--dim)}
+.copybtn{background:var(--ink);color:#071426;border:0;border-radius:999px;padding:8px 18px;font-size:12px;font-weight:700;letter-spacing:.04em;cursor:pointer;font-family:inherit}
+.copybtn:hover{background:#fff}
+.copybtn.done{background:#34D399;color:#062015}
+pre{background:#03101F;border:1px solid var(--line);border-radius:12px;padding:17px 19px;font-size:13.5px;line-height:1.62;white-space:pre-wrap;word-wrap:break-word;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#E8EEF6;max-height:340px;overflow:auto}
+.meta{font-size:13.5px;color:var(--dim);border-top:1px solid var(--line);padding-top:16px}
+.meta div{margin-bottom:7px}
+.meta b{color:var(--ink);font-weight:600}
+footer{margin-top:80px;padding:40px 0 70px;border-top:1px solid var(--line);color:var(--dim);font-size:13.5px}
+.pageinfo-link{display:inline-block;margin-top:26px;background:var(--blue);color:#04121F;font-weight:700;padding:15px 30px;border-radius:999px;font-size:15px}
+.pageinfo-link:hover{background:#A9CBFF;text-decoration:none}
+</style></head><body>
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Longevity Life Academy by eTeacher Group</div>
+<h1>Organic Social <em>Go-Live Pack</em></h1>
+<p class="lede">Everything needed to publish on Facebook and Instagram today. 23 finished posts, every caption pre-written and character-checked, every file already exported at the exact platform size, plus the complete page-information sheet for both profiles. Nothing here needs to be designed, written, or resized.</p>
+<div class="statbar">
+<div class="stat"><b>23</b><span>Ready posts</span></div>
+<div class="stat"><b>56</b><span>Video files</span></div>
+<div class="stat"><b>76</b><span>Image files</span></div>
+<div class="stat"><b>2</b><span>Verified press links</span></div>
+<div class="stat"><b>34</b><span>Profile fields filled</span></div>
+</div>
+<div class="howto"><h3>How to use this page</h3><ol><li>Work top to bottom. Each card is one post.</li><li>Click a file name to download it. The file name states the platform and the exact pixel size.</li><li>Press <b>Copy</b> above the caption, then paste it straight into the composer. Do not retype anything.</li><li>Where a link is listed, paste the link into the post as instructed in that card.</li><li>Finish with the <b>Page Information</b> sheet at the bottom to fill both profiles.</li></ol></div>
+<a class="pageinfo-link" href="PAGE-INFO.md">Open the Page Information sheet</a>
+</div></header><div class="wrap"><nav class="toc">
+<a href="#press">Press</a>
+<a href="#the-six-pillars">The Six Pillars</a>
+<a href="#blog-video-posts">Blog — video posts</a>
+<a href="#blog-article-posts">Blog — article posts</a>
+<a href="#offer">Offer</a>
+<a href="#lead-magnet">Lead magnet</a>
+<a href="#faculty">Faculty</a>
+<a href="#motion-posts">Motion posts</a>
+<a href="PAGE-INFO.md">Page information</a></nav>
+<h2 class="group" id="press">Press</h2>
+<p class="groupsub">Two verified live placements. Facebook builds the article card automatically from the URL.</p>
+<div class="card"><div class="chead">
+<div class="cnum">01</div><h3>AP News — Longevity Life Academy launch</h3>
+<span class="badge ig">IG · Reel (video)</span>
+<span class="badge fb">FB · Link post (Facebook pulls the article image automatically)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/MOTION-05_AGING-REVERSED_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/MOTION-05_AGING-REVERSED_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 1.7 MB</span></a>
+<a href="assets/video/MOTION-05_AGING-REVERSED_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.2 MB</span></a>
+<a href="assets/video/MOTION-05_AGING-REVERSED_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 1.1 MB</span></a>
+<a href="assets/video/MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 2.6 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">827 / 2,200 characters · 10 hashtags / 30</span><button class="copybtn" onclick="cp('ig1',this)">Copy</button></div><pre id="ig1">We are on AP News.
+
+eTeacher Group has opened its sixth online school: Longevity Life Academy, bringing science-backed healthy aging to U.S. households through certified instructors.
+
+From the article: UBS projects the longevity market will reach roughly $8 trillion by 2030, up from $5.3 trillion in 2023. eTeacher enters from a position of strength, with more than 10,000 learners a year and roughly 70% of its customers already in the United States.
+
+This is the course that turns that science into your own protocol: 18 weeks, 18 live sessions, classes of 8-15, and a personal longevity plan built on your own numbers.
+
+Read the full story, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #press #launch #longevitymarket #agingscience</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">803 / 63,206 characters</span><button class="copybtn" onclick="cp('fb1',this)">Copy</button></div><pre id="fb1">We are on AP News.
+
+eTeacher Group has opened its sixth online school: Longevity Life Academy, bringing science-backed healthy aging to U.S. households through certified instructors.
+
+From the article: UBS projects the longevity market will reach roughly $8 trillion by 2030, up from $5.3 trillion in 2023. eTeacher enters from a position of strength, with more than 10,000 learners a year and roughly 70% of its customers already in the United States.
+
+Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own biomarkers.
+
+Read the full story on AP News: https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48" target="_blank" rel="noopener">https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48</a> — AP News, 20 July 2026</div>
+<div><b>Story version:</b> Story (1080x1920): use the same Reel file. Add a LINK sticker to the AP News URL. Sticker text: Read the AP story</div>
+<div><b>Tagging:</b> Tag / mention: @apnews (Facebook: @APNews). Tag eTeacher Group&#x27;s page if it is linked to this account.</div>
+<div><b>Notes:</b> Facebook: paste the AP URL into the composer FIRST, wait for the preview card to load, then paste the caption above and delete the raw URL line if you prefer a clean look. Do not upload a separate image for the FB post, the link preview is the image.</div>
+<div><b>Full instructions file:</b> <a href="posts/01_PR-AP-LAUNCH.md">posts/01_PR-AP-LAUNCH.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">02</div><h3>USA TODAY — Julie Gibson Clark joins the faculty</h3>
+<span class="badge ig">IG · Single image post (4:5)</span>
+<span class="badge fb">FB · Link post (Facebook pulls the article image automatically)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-FEED_1080x1350.jpg" alt="USA TODAY — Julie Gibson Clark joins the faculty" loading="lazy">
+<div class="filelist">
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 191 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 156 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 226 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 113 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">896 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig2',this)">Copy</button></div><pre id="ig2">USA TODAY: Julie Gibson Clark joins Longevity Life Academy.
+
+Julie ranked #2 in the world at the Rejuvenation Olympics. Her DunedinPACE score is 0.665, roughly eight months of biological aging per calendar year. No exotic hardware. No seven-figure lab.
+
+&quot;Aging well isn&#x27;t complicated or expensive; it&#x27;s a few fundamentals done consistently.&quot; Julie Gibson Clark, Longevity Practitioner and Faculty Member at Longevity Life Academy.
+
+&quot;With Julie and our shared vision, we will bring longer, healthier lives to anyone who seeks it in the USA and beyond.&quot; Harel Tayeb, CEO of eTeacher Group.
+
+Those fundamentals are what we teach: 18 weeks, 18 live sessions, classes of 8-15.
+
+Read it in USA TODAY, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #faculty #longevitycoach #RejuvenationOlympics #JulieGibsonClark</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">929 / 63,206 characters</span><button class="copybtn" onclick="cp('fb2',this)">Copy</button></div><pre id="fb2">USA TODAY: Julie Gibson Clark joins Longevity Life Academy.
+
+Julie ranked #2 in the world at the Rejuvenation Olympics. Her DunedinPACE score is 0.665, roughly eight months of biological aging per calendar year, achieved on everyday fundamentals rather than an elite budget.
+
+&quot;Aging well isn&#x27;t complicated or expensive; it&#x27;s a few fundamentals done consistently.&quot; Julie Gibson Clark, Longevity Practitioner and Faculty Member at Longevity Life Academy.
+
+&quot;With Julie and our shared vision, we will bring longer, healthier lives to anyone who seeks it in the USA and beyond.&quot; Harel Tayeb, CEO of eTeacher Group.
+
+Read the full story in USA TODAY: https://www.usatoday.com/press-release/story/38313/julie-gibson-clark-2nd-slowest-aging-woman-on-earth-joins-longevity-life-academy-by-eteacher-group-to-make-elite-longevity-accessible-to-americans
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.usatoday.com/press-release/story/38313/julie-gibson-clark-2nd-slowest-aging-woman-on-earth-joins-longevity-life-academy-by-eteacher-group-to-make-elite-longevity-accessible-to-americans" target="_blank" rel="noopener">https://www.usatoday.com/press-release/story/38313/julie-gibson-clark-2nd-slowest-aging-woman-on-earth-joins-longevity-life-academy-by-eteacher-group-to-make-elite-longevity-accessible-to-americans</a> — USA TODAY, 27 July 2026</div>
+<div><b>Story version:</b> Story (1080x1920): use QUIZ_BIO-AGE_JULIE_IG-STORY_1080x1920.jpg with a LINK sticker to the USA TODAY URL. Sticker text: USA TODAY</div>
+<div><b>Tagging:</b> Tag / mention: @usatoday. Tag @juliegibsonclark only if she has confirmed her handle with us, otherwise leave her untagged and name her in text.</div>
+<div><b>Notes:</b> Julie image used is her official site portrait, already cleared for LLA marketing use.</div>
+<div><b>Full instructions file:</b> <a href="posts/02_PR-USATODAY-JULIE.md">posts/02_PR-USATODAY-JULIE.md</a></div>
+</div></div></div>
+<h2 class="group" id="the-six-pillars">The Six Pillars</h2>
+<p class="groupsub">Six posts, one per pillar. Video and text are taken word for word from the website.</p>
+<div class="card"><div class="chead">
+<div class="cnum">03</div><h3>Pillar 01 — Nutrition</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-01_NUTRITION_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-01_NUTRITION_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 6.3 MB</span></a>
+<a href="assets/video/PILLAR-01_NUTRITION_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 5.3 MB</span></a>
+<a href="assets/video/PILLAR-01_NUTRITION_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 4.9 MB</span></a>
+<a href="assets/video/PILLAR-01_NUTRITION_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 4.5 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">609 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig3',this)">Copy</button></div><pre id="ig3">The Six Pillars of a Longer, Better Life.
+
+01 · Nutrition
+
+Incorporate a daily routine that transforms your kitchen into a medicine cabinet by adopting plant-forward, nutrient-dense food patterns that combat inflammation and promote cellular rejuvenation.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #nutrition #antiinflammatory #bloodsugar #mediterraneandiet #eatforlongevity</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">549 / 63,206 characters</span><button class="copybtn" onclick="cp('fb3',this)">Copy</button></div><pre id="fb3">The Six Pillars of a Longer, Better Life.
+
+01 · Nutrition
+
+Incorporate a daily routine that transforms your kitchen into a medicine cabinet by adopting plant-forward, nutrient-dense food patterns that combat inflammation and promote cellular rejuvenation.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/nutrition-longevity.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/nutrition-longevity.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/nutrition-longevity.html. Sticker text: Nutrition</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/03_PILLAR-01-NUTRITION.md">posts/03_PILLAR-01-NUTRITION.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">04</div><h3>Pillar 02 — Sleep</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-02_SLEEP_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-02_SLEEP_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.3 MB</span></a>
+<a href="assets/video/PILLAR-02_SLEEP_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.7 MB</span></a>
+<a href="assets/video/PILLAR-02_SLEEP_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 1.5 MB</span></a>
+<a href="assets/video/PILLAR-02_SLEEP_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.2 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">707 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig4',this)">Copy</button></div><pre id="ig4">The Six Pillars of a Longer, Better Life.
+
+02 · Sleep
+
+Actionable, science-backed protocols to optimize your sleep architecture and activate cellular repair, reduce inflammation, and reverse biological aging. Sleep is the most underutilized longevity lever, regulating cortisol rhythm, HGH secretion, glymphatic clearance, and metabolic repair. Your protocol starts here.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #sleep #circadianrhythm #sleepscience #recovery #deepsleep</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">665 / 63,206 characters</span><button class="copybtn" onclick="cp('fb4',this)">Copy</button></div><pre id="fb4">The Six Pillars of a Longer, Better Life.
+
+02 · Sleep
+
+Actionable, science-backed protocols to optimize your sleep architecture and activate cellular repair, reduce inflammation, and reverse biological aging. Sleep is the most underutilized longevity lever, regulating cortisol rhythm, HGH secretion, glymphatic clearance, and metabolic repair. Your protocol starts here.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html. Sticker text: Sleep</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/04_PILLAR-02-SLEEP.md">posts/04_PILLAR-02-SLEEP.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">05</div><h3>Pillar 03 — Exercise &amp; Movement</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-03_EXERCISE_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-03_EXERCISE_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 1.2 MB</span></a>
+<a href="assets/video/PILLAR-03_EXERCISE_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.0 MB</span></a>
+<a href="assets/video/PILLAR-03_EXERCISE_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 960 KB</span></a>
+<a href="assets/video/PILLAR-03_EXERCISE_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 881 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">582 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig5',this)">Copy</button></div><pre id="ig5">The Six Pillars of a Longer, Better Life.
+
+03 · Exercise &amp; Movement
+
+Transform your approach to aging by building a resilient body, focusing on functional strength, Zone 2 endurance, and stability to maximize both your lifespan and healthspan.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #zone2 #strengthtraining #vo2max #functionalfitness #movement</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">537 / 63,206 characters</span><button class="copybtn" onclick="cp('fb5',this)">Copy</button></div><pre id="fb5">The Six Pillars of a Longer, Better Life.
+
+03 · Exercise &amp; Movement
+
+Transform your approach to aging by building a resilient body, focusing on functional strength, Zone 2 endurance, and stability to maximize both your lifespan and healthspan.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/exercise-movement.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/exercise-movement.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/exercise-movement.html. Sticker text: Exercise &amp; Movement</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/05_PILLAR-03-EXERCISE.md">posts/05_PILLAR-03-EXERCISE.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">06</div><h3>Pillar 04 — Supplements &amp; Wearables</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-04_SUPPLEMENTS-WEARABLES_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-04_SUPPLEMENTS-WEARABLES_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.8 MB</span></a>
+<a href="assets/video/PILLAR-04_SUPPLEMENTS-WEARABLES_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 2.3 MB</span></a>
+<a href="assets/video/PILLAR-04_SUPPLEMENTS-WEARABLES_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 2.0 MB</span></a>
+<a href="assets/video/PILLAR-04_SUPPLEMENTS-WEARABLES_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.6 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">643 / 2,200 characters · 12 hashtags / 30</span><button class="copybtn" onclick="cp('ig6',this)">Copy</button></div><pre id="ig6">The Six Pillars of a Longer, Better Life.
+
+04 · Supplements &amp; Wearables
+
+Targeted compounds, NAD+ precursors (NMN/NR), omega-3s, D3 + K2, magnesium, rapamycin, metformin, berberine, deployed against specific biomarker gaps, not stacked by trend. CGM, HRV, and sleep data turn every protocol into a feedback loop.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #supplements #NAD #omega3 #wearables #CGM #biomarkers</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">606 / 63,206 characters</span><button class="copybtn" onclick="cp('fb6',this)">Copy</button></div><pre id="fb6">The Six Pillars of a Longer, Better Life.
+
+04 · Supplements &amp; Wearables
+
+Targeted compounds, NAD+ precursors (NMN/NR), omega-3s, D3 + K2, magnesium, rapamycin, metformin, berberine, deployed against specific biomarker gaps, not stacked by trend. CGM, HRV, and sleep data turn every protocol into a feedback loop.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/supplements-health-tech.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/supplements-health-tech.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/supplements-health-tech.html. Sticker text: Supplements &amp; Wearables</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/06_PILLAR-04-SUPPLEMENTS-WEARABLES.md">posts/06_PILLAR-04-SUPPLEMENTS-WEARABLES.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">07</div><h3>Pillar 05 — Stress Management</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-05_STRESS_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-05_STRESS_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.8 MB</span></a>
+<a href="assets/video/PILLAR-05_STRESS_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 2.5 MB</span></a>
+<a href="assets/video/PILLAR-05_STRESS_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 2.1 MB</span></a>
+<a href="assets/video/PILLAR-05_STRESS_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.4 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">832 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig7',this)">Copy</button></div><pre id="ig7">The Six Pillars of a Longer, Better Life.
+
+05 · Stress Management
+
+Chronic stress drives cortisol dysregulation, HPA-axis dysfunction, accelerated telomere attrition, and rising allostatic load, measurable upstream contributors to cardiovascular and metabolic disease. The protocol uses autonomic nervous system regulation, structured breathwork, deliberate cold exposure, vagal tone training, and social connection as a validated mortality predictor, to keep biology resilient, not relaxed.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #stressmanagement #coldplunge #breathwork #vagusnerve #cortisol</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">785 / 63,206 characters</span><button class="copybtn" onclick="cp('fb7',this)">Copy</button></div><pre id="fb7">The Six Pillars of a Longer, Better Life.
+
+05 · Stress Management
+
+Chronic stress drives cortisol dysregulation, HPA-axis dysfunction, accelerated telomere attrition, and rising allostatic load, measurable upstream contributors to cardiovascular and metabolic disease. The protocol uses autonomic nervous system regulation, structured breathwork, deliberate cold exposure, vagal tone training, and social connection as a validated mortality predictor, to keep biology resilient, not relaxed.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/mental-emotional-health.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/mental-emotional-health.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/mental-emotional-health.html. Sticker text: Stress Management</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/07_PILLAR-05-STRESS.md">posts/07_PILLAR-05-STRESS.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">08</div><h3>Pillar 06 — Your Longevity Protocol</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/PILLAR-06_PROTOCOL_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/PILLAR-06_PROTOCOL_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 4.1 MB</span></a>
+<a href="assets/video/PILLAR-06_PROTOCOL_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 3.1 MB</span></a>
+<a href="assets/video/PILLAR-06_PROTOCOL_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 2.7 MB</span></a>
+<a href="assets/video/PILLAR-06_PROTOCOL_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 2.0 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">807 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig8',this)">Copy</button></div><pre id="ig8">The Six Pillars of a Longer, Better Life.
+
+06 · Your Longevity Protocol
+
+Generic health advice ends here: your protocol is built from your own bloodwork, lipid sub-particles, ApoB, fasting insulin, inflammatory markers, body composition, and continuous wearable data. This is Medicine 3.0 in practice, a proactive, individualized plan that iterates against your biomarkers and risk profile, so every intervention is measured, owned, and adjusted to your biology.
+
+Six interconnected systems that compound a longer, better life across every decade. 18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #personalizedmedicine #medicine3point0 #ApoB #biomarkers #bloodwork</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">756 / 63,206 characters</span><button class="copybtn" onclick="cp('fb8',this)">Copy</button></div><pre id="fb8">The Six Pillars of a Longer, Better Life.
+
+06 · Your Longevity Protocol
+
+Generic health advice ends here: your protocol is built from your own bloodwork, lipid sub-particles, ApoB, fasting insulin, inflammatory markers, body composition, and continuous wearable data. This is Medicine 3.0 in practice, a proactive, individualized plan that iterates against your biomarkers and risk profile, so every intervention is measured, owned, and adjusted to your biology.
+
+Six interconnected systems that compound a longer, better life across every decade. Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own numbers.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/protocols-habits.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/protocols-habits.html</a> — Read the pillar on our site</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. Add a LINK sticker to https://www.longevitylifeacademy.com/topics/protocols-habits.html. Sticker text: Your Longevity Protocol</div>
+<div><b>Tagging:</b> Tag / mention: none required. Location: leave blank.</div>
+<div><b>Notes:</b> Video is silent by design (site motion loop). Do not add music on Facebook. On Instagram you may leave it silent; if the uploader is asked to pick audio, choose none.</div>
+<div><b>Full instructions file:</b> <a href="posts/08_PILLAR-06-PROTOCOL.md">posts/08_PILLAR-06-PROTOCOL.md</a></div>
+</div></div></div>
+<h2 class="group" id="blog-video-posts">Blog — video posts</h2>
+<p class="groupsub">The three blog deep-dives that carry motion on the site.</p>
+<div class="card"><div class="chead">
+<div class="cnum">09</div><h3>Supplements &amp; Therapies: Know What You&#x27;re Actually Taking</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/BLOGVID-01_SUPPLEMENTS-THERAPIES_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/BLOGVID-01_SUPPLEMENTS-THERAPIES_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.5 MB</span></a>
+<a href="assets/video/BLOGVID-01_SUPPLEMENTS-THERAPIES_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.9 MB</span></a>
+<a href="assets/video/BLOGVID-01_SUPPLEMENTS-THERAPIES_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 1.7 MB</span></a>
+<a href="assets/video/BLOGVID-01_SUPPLEMENTS-THERAPIES_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.6 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">426 / 2,200 characters · 12 hashtags / 30</span><button class="copybtn" onclick="cp('ig9',this)">Copy</button></div><pre id="ig9">Supplements &amp; Therapies
+
+Know What You&#x27;re Actually Taking
+
+NAD precursors, Vitamin D, omega-3s, creatine, senolytics, the short list of supplements with real human data, and the long list without it.
+
+Read the full article on our blog, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #supplements #NAD #omega3 #wearables #CGM #biomarkers</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">383 / 63,206 characters</span><button class="copybtn" onclick="cp('fb9',this)">Copy</button></div><pre id="fb9">Supplements &amp; Therapies
+
+Know What You&#x27;re Actually Taking
+
+NAD precursors, Vitamin D, omega-3s, creatine, senolytics, the short list of supplements with real human data, and the long list without it.
+
+Read the full article: https://www.longevitylifeacademy.com/topics/supplements-health-tech.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/supplements-health-tech.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/supplements-health-tech.html</a> — Read the full article</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com/topics/supplements-health-tech.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Silent motion loop from our own site. No music.</div>
+<div><b>Full instructions file:</b> <a href="posts/09_BLOGVID-SUPPLEMENTS.md">posts/09_BLOGVID-SUPPLEMENTS.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">10</div><h3>The Longevity Toolkit: Five Habits That Move the Needle</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/BLOGVID-02_LONGEVITY-TOOLKIT_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/BLOGVID-02_LONGEVITY-TOOLKIT_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 10.4 MB</span></a>
+<a href="assets/video/BLOGVID-02_LONGEVITY-TOOLKIT_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 9.3 MB</span></a>
+<a href="assets/video/BLOGVID-02_LONGEVITY-TOOLKIT_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 8.6 MB</span></a>
+<a href="assets/video/BLOGVID-02_LONGEVITY-TOOLKIT_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 6.0 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">457 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig10',this)">Copy</button></div><pre id="ig10">The Longevity Toolkit
+
+Five Habits That Move the Needle
+
+Zone 2 cardio for mitochondrial health, VO2 max as the strongest predictor of all-cause mortality, CGM-driven metabolic tracking, and the daily habits that compound.
+
+Read the full article on our blog, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #zone2 #strengthtraining #vo2max #functionalfitness #movement</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">406 / 63,206 characters</span><button class="copybtn" onclick="cp('fb10',this)">Copy</button></div><pre id="fb10">The Longevity Toolkit
+
+Five Habits That Move the Needle
+
+Zone 2 cardio for mitochondrial health, VO2 max as the strongest predictor of all-cause mortality, CGM-driven metabolic tracking, and the daily habits that compound.
+
+Read the full article: https://www.longevitylifeacademy.com/topics/mental-emotional-health.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/mental-emotional-health.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/mental-emotional-health.html</a> — Read the full article</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com/topics/mental-emotional-health.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Silent motion loop from our own site. No music.</div>
+<div><b>Full instructions file:</b> <a href="posts/10_BLOGVID-TOOLKIT.md">posts/10_BLOGVID-TOOLKIT.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">11</div><h3>Aging on the Outside: The Visible Edge of Aging</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/BLOGVID-03_VISIBLE-EDGE-OF-AGING_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/BLOGVID-03_VISIBLE-EDGE-OF-AGING_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.8 MB</span></a>
+<a href="assets/video/BLOGVID-03_VISIBLE-EDGE-OF-AGING_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 2.2 MB</span></a>
+<a href="assets/video/BLOGVID-03_VISIBLE-EDGE-OF-AGING_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 1.9 MB</span></a>
+<a href="assets/video/BLOGVID-03_VISIBLE-EDGE-OF-AGING_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.4 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">401 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig11',this)">Copy</button></div><pre id="ig11">Aging on the Outside
+
+The Visible Edge of Aging
+
+Skin as a real-time biomarker of systemic aging: collagen turnover, oxidative stress, glycation, and UV damage.
+
+Read the full article on our blog, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #personalizedmedicine #medicine3point0 #ApoB #biomarkers #bloodwork</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">337 / 63,206 characters</span><button class="copybtn" onclick="cp('fb11',this)">Copy</button></div><pre id="fb11">Aging on the Outside
+
+The Visible Edge of Aging
+
+Skin as a real-time biomarker of systemic aging: collagen turnover, oxidative stress, glycation, and UV damage.
+
+Read the full article: https://www.longevitylifeacademy.com/topics/protocols-habits.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/protocols-habits.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/protocols-habits.html</a> — Read the full article</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com/topics/protocols-habits.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Silent motion loop from our own site. No music.</div>
+<div><b>Full instructions file:</b> <a href="posts/11_BLOGVID-SKIN.md">posts/11_BLOGVID-SKIN.md</a></div>
+</div></div></div>
+<h2 class="group" id="blog-article-posts">Blog — article posts</h2>
+<p class="groupsub">The six articles on our blog, each with its own site photograph.</p>
+<div class="card"><div class="chead">
+<div class="cnum">12</div><h3>Biomarkers &amp; Testing</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-01_BIOMARKERS-TESTING_IG-FEED_1080x1350.jpg" alt="Biomarkers &amp; Testing" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-01_BIOMARKERS-TESTING_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 257 KB</span></a>
+<a href="assets/image/BLOG-01_BIOMARKERS-TESTING_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 218 KB</span></a>
+<a href="assets/image/BLOG-01_BIOMARKERS-TESTING_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 190 KB</span></a>
+<a href="assets/image/BLOG-01_BIOMARKERS-TESTING_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 140 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">534 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig12',this)">Copy</button></div><pre id="ig12">From the Longevity Blog.
+
+Biomarkers &amp; Testing
+
+Measuring your health is not the same as managing it, but it&#x27;s a necessary starting point. Which biomarkers actually matter for longevity, and how to read them.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #longevityblog #evidencebased #healthspan #agingscience #wellness</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">378 / 63,206 characters</span><button class="copybtn" onclick="cp('fb12',this)">Copy</button></div><pre id="fb12">From the Longevity Blog.
+
+Biomarkers &amp; Testing
+
+Measuring your health is not the same as managing it, but it&#x27;s a necessary starting point. Which biomarkers actually matter for longevity, and how to read them.
+
+Read it here: https://www.longevitylifeacademy.com/topics/biomarkers-testing.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/biomarkers-testing.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/biomarkers-testing.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/biomarkers-testing.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/12_BLOG-BIOMARKERS.md">posts/12_BLOG-BIOMARKERS.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">13</div><h3>Exercise &amp; Movement</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-02_EXERCISE-MOVEMENT_IG-FEED_1080x1350.jpg" alt="Exercise &amp; Movement" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-02_EXERCISE-MOVEMENT_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 255 KB</span></a>
+<a href="assets/image/BLOG-02_EXERCISE-MOVEMENT_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 223 KB</span></a>
+<a href="assets/image/BLOG-02_EXERCISE-MOVEMENT_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 211 KB</span></a>
+<a href="assets/image/BLOG-02_EXERCISE-MOVEMENT_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 160 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">532 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig13',this)">Copy</button></div><pre id="ig13">From the Longevity Blog.
+
+Exercise &amp; Movement
+
+Physical activity is among the most potent tools in the longevity toolkit. The specific mechanisms that make movement a high-return investment in long-term health.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #zone2 #strengthtraining #vo2max #functionalfitness #movement</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">379 / 63,206 characters</span><button class="copybtn" onclick="cp('fb13',this)">Copy</button></div><pre id="fb13">From the Longevity Blog.
+
+Exercise &amp; Movement
+
+Physical activity is among the most potent tools in the longevity toolkit. The specific mechanisms that make movement a high-return investment in long-term health.
+
+Read it here: https://www.longevitylifeacademy.com/topics/exercise-movement.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/exercise-movement.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/exercise-movement.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/exercise-movement.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/13_BLOG-EXERCISE.md">posts/13_BLOG-EXERCISE.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">14</div><h3>Mental &amp; Emotional Health</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-03_MENTAL-EMOTIONAL_IG-FEED_1080x1350.jpg" alt="Mental &amp; Emotional Health" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-03_MENTAL-EMOTIONAL_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 427 KB</span></a>
+<a href="assets/image/BLOG-03_MENTAL-EMOTIONAL_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 361 KB</span></a>
+<a href="assets/image/BLOG-03_MENTAL-EMOTIONAL_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 267 KB</span></a>
+<a href="assets/image/BLOG-03_MENTAL-EMOTIONAL_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 216 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">544 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig14',this)">Copy</button></div><pre id="ig14">From the Longevity Blog.
+
+Mental &amp; Emotional Health
+
+The boundary between psychological health and physical health is less distinct than it once appeared. How stress, connection, and emotion shape inflammation and aging.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #stressmanagement #coldplunge #breathwork #vagusnerve #cortisol</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">395 / 63,206 characters</span><button class="copybtn" onclick="cp('fb14',this)">Copy</button></div><pre id="fb14">From the Longevity Blog.
+
+Mental &amp; Emotional Health
+
+The boundary between psychological health and physical health is less distinct than it once appeared. How stress, connection, and emotion shape inflammation and aging.
+
+Read it here: https://www.longevitylifeacademy.com/topics/mental-emotional-health.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/mental-emotional-health.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/mental-emotional-health.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/mental-emotional-health.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/14_BLOG-MENTAL.md">posts/14_BLOG-MENTAL.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">15</div><h3>Metabolic Health &amp; Blood Sugar</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-04_METABOLIC-BLOOD-SUGAR_IG-FEED_1080x1350.jpg" alt="Metabolic Health &amp; Blood Sugar" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-04_METABOLIC-BLOOD-SUGAR_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 267 KB</span></a>
+<a href="assets/image/BLOG-04_METABOLIC-BLOOD-SUGAR_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 238 KB</span></a>
+<a href="assets/image/BLOG-04_METABOLIC-BLOOD-SUGAR_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 236 KB</span></a>
+<a href="assets/image/BLOG-04_METABOLIC-BLOOD-SUGAR_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 192 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">523 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig15',this)">Copy</button></div><pre id="ig15">From the Longevity Blog.
+
+Metabolic Health &amp; Blood Sugar
+
+Blood sugar is one of the most actionable signals your body produces. The fundamentals and their practical implications for aging well.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #CGM #glucose #metabolichealth #AbbottLingo #continuousglucosemonitor</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">373 / 63,206 characters</span><button class="copybtn" onclick="cp('fb15',this)">Copy</button></div><pre id="fb15">From the Longevity Blog.
+
+Metabolic Health &amp; Blood Sugar
+
+Blood sugar is one of the most actionable signals your body produces. The fundamentals and their practical implications for aging well.
+
+Read it here: https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/15_BLOG-METABOLIC.md">posts/15_BLOG-METABOLIC.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">16</div><h3>Nutrition &amp; Longevity</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-05_NUTRITION-LONGEVITY_IG-FEED_1080x1350.jpg" alt="Nutrition &amp; Longevity" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-05_NUTRITION-LONGEVITY_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 476 KB</span></a>
+<a href="assets/image/BLOG-05_NUTRITION-LONGEVITY_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 426 KB</span></a>
+<a href="assets/image/BLOG-05_NUTRITION-LONGEVITY_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 363 KB</span></a>
+<a href="assets/image/BLOG-05_NUTRITION-LONGEVITY_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 318 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">560 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig16',this)">Copy</button></div><pre id="ig16">From the Longevity Blog.
+
+Nutrition &amp; Longevity
+
+What you eat shapes how your cells age, how your blood sugar behaves, and how much energy you carry into your 70s and 80s. The fundamentals of eating for a longer healthspan.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #nutrition #antiinflammatory #bloodsugar #mediterraneandiet #eatforlongevity</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">394 / 63,206 characters</span><button class="copybtn" onclick="cp('fb16',this)">Copy</button></div><pre id="fb16">From the Longevity Blog.
+
+Nutrition &amp; Longevity
+
+What you eat shapes how your cells age, how your blood sugar behaves, and how much energy you carry into your 70s and 80s. The fundamentals of eating for a longer healthspan.
+
+Read it here: https://www.longevitylifeacademy.com/topics/nutrition-longevity.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/nutrition-longevity.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/nutrition-longevity.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/nutrition-longevity.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/16_BLOG-NUTRITION.md">posts/16_BLOG-NUTRITION.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">17</div><h3>Sleep &amp; Circadian Health</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story</span>
+<span class="badge fb">FB · Link post (or single image + link in text)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/BLOG-06_SLEEP-CIRCADIAN_IG-FEED_1080x1350.jpg" alt="Sleep &amp; Circadian Health" loading="lazy">
+<div class="filelist">
+<a href="assets/image/BLOG-06_SLEEP-CIRCADIAN_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 235 KB</span></a>
+<a href="assets/image/BLOG-06_SLEEP-CIRCADIAN_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 195 KB</span></a>
+<a href="assets/image/BLOG-06_SLEEP-CIRCADIAN_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 171 KB</span></a>
+<a href="assets/image/BLOG-06_SLEEP-CIRCADIAN_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 133 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">546 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig17',this)">Copy</button></div><pre id="ig17">From the Longevity Blog.
+
+Sleep &amp; Circadian Health
+
+Sleep is not passive recovery time. It&#x27;s when the brain clears metabolic waste, hormones reset, and cellular repair takes place. The science of sleep through a longevity lens.
+
+Practical, evidence-based writing on the six pillars of healthy aging, from biomarkers to behavior change.
+
+Full article, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #sleep #circadianrhythm #sleepscience #recovery #deepsleep</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">401 / 63,206 characters</span><button class="copybtn" onclick="cp('fb17',this)">Copy</button></div><pre id="fb17">From the Longevity Blog.
+
+Sleep &amp; Circadian Health
+
+Sleep is not passive recovery time. It&#x27;s when the brain clears metabolic waste, hormones reset, and cellular repair takes place. The science of sleep through a longevity lens.
+
+Read it here: https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html</a> — Read the article</div>
+<div><b>Story version:</b> Story (1080x1920): use the _IG-STORY_1080x1920.jpg file. LINK sticker to https://www.longevitylifeacademy.com/topics/sleep-circadian-health.html. Sticker text: Read the article</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> Facebook option A (recommended): paste the article URL, let the preview card load, then paste the caption. Option B: upload the FB-LINK_1200x630.jpg and keep the URL in the text.</div>
+<div><b>Full instructions file:</b> <a href="posts/17_BLOG-SLEEP.md">posts/17_BLOG-SLEEP.md</a></div>
+</div></div></div>
+<h2 class="group" id="offer">Offer</h2>
+<p class="groupsub">The free Abbott Lingo CGM included with every enrollment.</p>
+<div class="card"><div class="chead">
+<div class="cnum">18</div><h3>Free Abbott Lingo CGM, included with enrollment</h3>
+<span class="badge ig">IG · Carousel, 6 images (1080x1350) + Reel option</span>
+<span class="badge fb">FB · Photo album (6 images) or single video</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/MOTION-04_CGM-HERO_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/MOTION-04_CGM-HERO_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 1.2 MB</span></a>
+<a href="assets/video/MOTION-04_CGM-HERO_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 906 KB</span></a>
+<a href="assets/video/MOTION-04_CGM-HERO_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 769 KB</span></a>
+<a href="assets/video/MOTION-04_CGM-HERO_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 852 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_IG-FEED_1080x1350.jpg" download>IG feed + FB feed · 6 files, see folder<span class="sz">1080×1350</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-01<span class="sz">1080×1350 · 82 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-02_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-02<span class="sz">1080×1350 · 211 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-03_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-03<span class="sz">1080×1350 · 172 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-04_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-04<span class="sz">1080×1350 · 187 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-05_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-05<span class="sz">1080×1350 · 143 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-06_IG-FEED_1080x1350.jpg" download>CGM-CAROUSEL-06<span class="sz">1080×1350 · 183 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_SQUARE_1080x1080.jpg" download>Square · 6 files, see folder<span class="sz">1080×1080</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-01<span class="sz">1080×1080 · 61 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-02_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-02<span class="sz">1080×1080 · 187 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-03_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-03<span class="sz">1080×1080 · 144 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-04_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-04<span class="sz">1080×1080 · 162 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-05_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-05<span class="sz">1080×1080 · 116 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-06_SQUARE_1080x1080.jpg" download>CGM-CAROUSEL-06<span class="sz">1080×1080 · 150 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_IG-STORY_1080x1920.jpg" download>IG / FB Story · 6 files, see folder<span class="sz">1080×1920</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-01<span class="sz">1080×1920 · 90 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-02_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-02<span class="sz">1080×1920 · 224 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-03_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-03<span class="sz">1080×1920 · 183 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-04_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-04<span class="sz">1080×1920 · 202 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-05_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-05<span class="sz">1080×1920 · 155 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-06_IG-STORY_1080x1920.jpg" download>CGM-CAROUSEL-06<span class="sz">1080×1920 · 186 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_FB-LINK_1200x630.jpg" download>FB link image · 6 files, see folder<span class="sz">1200×630</span></a>
+<a href="assets/image/CGM-CAROUSEL-01_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-01<span class="sz">1200×630 · 47 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-02_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-02<span class="sz">1200×630 · 124 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-03_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-03<span class="sz">1200×630 · 92 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-04_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-04<span class="sz">1200×630 · 96 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-05_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-05<span class="sz">1200×630 · 65 KB</span></a>
+<a href="assets/image/CGM-CAROUSEL-06_FB-LINK_1200x630.jpg" download>CGM-CAROUSEL-06<span class="sz">1200×630 · 101 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">1233 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig18',this)">Copy</button></div><pre id="ig18">Your protocol is built on your numbers. So we send you the sensor.
+
+Every Longevity Life Academy enrollment includes the Lingo Continuous Glucose Monitor by Abbott, plus full Lingo app access, shipped to your home.
+
+A 14-day biosensor that reads your glucose in real time, so you can finally see how your body responds to food, sleep, training, and stress.
+
+01 Apply. Place the biosensor on the back of your upper arm. Painless, single-use applicator.
+02 Pair. Open the Lingo app and pair the sensor in seconds.
+03 Track. See your glucose patterns for 14 days, then bring the data to your cohort.
+
+That data becomes your own protocol: 18 weeks, 18 live sessions, classes of 8-15, $289/mo.
+
+Terms: one unit per student. U.S. residents only, shipping restricted to United States addresses. Students 18+. Not for use by people on insulin. Not intended for medical diagnosis or treatment of any disease, including diabetes. FSA/HSA prescription not needed. Free replacement if the biosensor fails before 14 days of wear.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #CGM #glucose #metabolichealth #AbbottLingo #continuousglucosemonitor</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">1324 / 63,206 characters</span><button class="copybtn" onclick="cp('fb18',this)">Copy</button></div><pre id="fb18">Your protocol is built on your numbers. So we send you the sensor.
+
+Every Longevity Life Academy enrollment includes the Lingo Continuous Glucose Monitor by Abbott, plus full Lingo app access, shipped to your home. A 14-day biosensor that reads your glucose in real time, so you can finally see how your body responds to food, sleep, training, and stress.
+
+01 Apply. Place the biosensor on the back of your upper arm. Painless, single-use applicator.
+02 Pair. Open the Lingo app and pair the sensor in seconds. Full app access included.
+03 Track. See your glucose patterns for 14 days, then bring the data to your cohort.
+
+Sensor wear time is 14 days, water-resistant for showering, swimming, and daily activity. Works with iOS and Android via the Lingo app, and syncs with Apple Health and Health Connect.
+
+Terms: one unit per student. U.S. residents only, shipping restricted to United States addresses. Students 18+. Not for use by people on insulin. Not intended for medical diagnosis or treatment of any disease, including diabetes. FSA/HSA prescription not needed. Free replacement if the biosensor fails before 14 days of wear. Manufactured by Abbott Diabetes Care Inc.
+
+Full details: https://www.longevitylifeacademy.com/cgm.html
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/cgm.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/cgm.html</a> — Lingo CGM page on our site</div>
+<div><b>Story version:</b> Story (1080x1920): use CGM-CAROUSEL-01_IG-STORY_1080x1920.jpg, LINK sticker to https://www.longevitylifeacademy.com/cgm.html. Sticker text: Your free CGM</div>
+<div><b>Tagging:</b> Tag / mention: do not tag or @mention Abbott or Lingo. Name them in text only.</div>
+<div><b>Notes:</b> The 6 product photos are our own site images. Keep them in numbered order 01 to 06. The Abbott and Lingo trademarks belong to Abbott, so we name them but never use their logos as our own.</div>
+<div><b>Full instructions file:</b> <a href="posts/18_CGM-FREE-LINGO.md">posts/18_CGM-FREE-LINGO.md</a></div>
+</div></div></div>
+<h2 class="group" id="lead-magnet">Lead magnet</h2>
+<p class="groupsub">The free 3-minute biological-age assessment. The link opens and runs live.</p>
+<div class="card"><div class="chead">
+<div class="cnum">19</div><h3>What&#x27;s your bio age? Free 3-minute assessment</h3>
+<span class="badge ig">IG · Single image post (4:5) + Story with link sticker</span>
+<span class="badge fb">FB · Link post (clickable, opens the live quiz)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/QUIZ_BIO-AGE_JULIE_IG-FEED_1080x1350.jpg" alt="What&#x27;s your bio age? Free 3-minute assessment" loading="lazy">
+<div class="filelist">
+<a href="assets/image/QUIZ_BIO-AGE_JULIE_IG-FEED_1080x1350.jpg" download>IG feed + FB feed<span class="sz">1080×1350 · 206 KB</span></a>
+<a href="assets/image/QUIZ_BIO-AGE_JULIE_SQUARE_1080x1080.jpg" download>Square<span class="sz">1080×1080 · 158 KB</span></a>
+<a href="assets/image/QUIZ_BIO-AGE_JULIE_IG-STORY_1080x1920.jpg" download>IG / FB Story<span class="sz">1080×1920 · 201 KB</span></a>
+<a href="assets/image/QUIZ_BIO-AGE_JULIE_FB-LINK_1200x630.jpg" download>FB link image<span class="sz">1200×630 · 94 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">730 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig19',this)">Copy</button></div><pre id="ig19">What age is your body really living at?
+
+Answer a few questions about how you sleep, eat, move, and recover. Get an instant estimate of your biological age, and see the one pillar to focus on first.
+
+3 minutes. Instant, personalized result. Free.
+
+What you receive: a clear snapshot of how your habits are shaping the way you age, your personalized biological-age estimate, the focus area that matters most for you right now, and a supportive path into the science-backed protocol taught inside Longevity Life Academy.
+
+Take it free, link in bio.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #biologicalage #epigenetics #DunedinPACE #agewell #freequiz</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">524 / 63,206 characters</span><button class="copybtn" onclick="cp('fb19',this)">Copy</button></div><pre id="fb19">What age is your body really living at?
+
+Answer a few questions about how you sleep, eat, move, and recover. Get an instant estimate of your biological age, and see the one pillar to focus on first.
+
+3 minutes. Instant, personalized result. Free.
+
+Take the free assessment: https://www.longevitylifeacademy.com/biological-age-light.html
+
+Inside the course: 18 weeks, 18 live sessions, classes of 8-15, Abbott Lingo CGM included, $289/mo. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/biological-age-light.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/biological-age-light.html</a> — Live quiz, opens and runs in the browser</div>
+<div><b>Story version:</b> Story (1080x1920): QUIZ_BIO-AGE_JULIE_IG-STORY_1080x1920.jpg with a LINK sticker to https://www.longevitylifeacademy.com/biological-age-light.html. Sticker text: What&#x27;s your bio age?</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> This is the one post where the click must work. On Instagram the working click is the Story link sticker plus the profile link. Set the second profile link title to: What&#x27;s Your Bio Age?</div>
+<div><b>Full instructions file:</b> <a href="posts/19_BIO-AGE-QUIZ.md">posts/19_BIO-AGE-QUIZ.md</a></div>
+</div></div></div>
+<h2 class="group" id="faculty">Faculty</h2>
+<p class="groupsub">Five-frame carousel of the instructors, Julie first.</p>
+<div class="card"><div class="chead">
+<div class="cnum">20</div><h3>Meet your instructors</h3>
+<span class="badge ig">IG · Carousel, 5 images (1080x1350), swipe order below</span>
+<span class="badge fb">FB · Photo album (5 images)</span>
+</div><div class="cbody"><div class="prev">
+<img src="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-FEED_1080x1350.jpg" alt="Meet your instructors" loading="lazy">
+<div class="thumbs"><img src="assets/image/INSTRUCTOR-02_COURTNEY-DONOFRIO_IG-FEED_1080x1350.jpg" alt="" loading="lazy"><img src="assets/image/INSTRUCTOR-03_AMY-JAMIESON_IG-FEED_1080x1350.jpg" alt="" loading="lazy"><img src="assets/image/INSTRUCTOR-04_JORDAN-LATTIMORE_IG-FEED_1080x1350.jpg" alt="" loading="lazy"><img src="assets/image/INSTRUCTOR-05_NATALIE-BLACKBOURNE_IG-FEED_1080x1350.jpg" alt="" loading="lazy"></div>
+<div class="filelist">
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-FEED_1080x1350.jpg" download>IG feed + FB feed · 5 files, see folder<span class="sz">1080×1350</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-FEED_1080x1350.jpg" download>INSTRUCTOR-01<span class="sz">1080×1350 · 191 KB</span></a>
+<a href="assets/image/INSTRUCTOR-02_COURTNEY-DONOFRIO_IG-FEED_1080x1350.jpg" download>INSTRUCTOR-02<span class="sz">1080×1350 · 258 KB</span></a>
+<a href="assets/image/INSTRUCTOR-03_AMY-JAMIESON_IG-FEED_1080x1350.jpg" download>INSTRUCTOR-03<span class="sz">1080×1350 · 298 KB</span></a>
+<a href="assets/image/INSTRUCTOR-04_JORDAN-LATTIMORE_IG-FEED_1080x1350.jpg" download>INSTRUCTOR-04<span class="sz">1080×1350 · 188 KB</span></a>
+<a href="assets/image/INSTRUCTOR-05_NATALIE-BLACKBOURNE_IG-FEED_1080x1350.jpg" download>INSTRUCTOR-05<span class="sz">1080×1350 · 215 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_SQUARE_1080x1080.jpg" download>Square · 5 files, see folder<span class="sz">1080×1080</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_SQUARE_1080x1080.jpg" download>INSTRUCTOR-01<span class="sz">1080×1080 · 156 KB</span></a>
+<a href="assets/image/INSTRUCTOR-02_COURTNEY-DONOFRIO_SQUARE_1080x1080.jpg" download>INSTRUCTOR-02<span class="sz">1080×1080 · 228 KB</span></a>
+<a href="assets/image/INSTRUCTOR-03_AMY-JAMIESON_SQUARE_1080x1080.jpg" download>INSTRUCTOR-03<span class="sz">1080×1080 · 242 KB</span></a>
+<a href="assets/image/INSTRUCTOR-04_JORDAN-LATTIMORE_SQUARE_1080x1080.jpg" download>INSTRUCTOR-04<span class="sz">1080×1080 · 168 KB</span></a>
+<a href="assets/image/INSTRUCTOR-05_NATALIE-BLACKBOURNE_SQUARE_1080x1080.jpg" download>INSTRUCTOR-05<span class="sz">1080×1080 · 192 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-STORY_1080x1920.jpg" download>IG / FB Story · 5 files, see folder<span class="sz">1080×1920</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_IG-STORY_1080x1920.jpg" download>INSTRUCTOR-01<span class="sz">1080×1920 · 226 KB</span></a>
+<a href="assets/image/INSTRUCTOR-02_COURTNEY-DONOFRIO_IG-STORY_1080x1920.jpg" download>INSTRUCTOR-02<span class="sz">1080×1920 · 273 KB</span></a>
+<a href="assets/image/INSTRUCTOR-03_AMY-JAMIESON_IG-STORY_1080x1920.jpg" download>INSTRUCTOR-03<span class="sz">1080×1920 · 279 KB</span></a>
+<a href="assets/image/INSTRUCTOR-04_JORDAN-LATTIMORE_IG-STORY_1080x1920.jpg" download>INSTRUCTOR-04<span class="sz">1080×1920 · 198 KB</span></a>
+<a href="assets/image/INSTRUCTOR-05_NATALIE-BLACKBOURNE_IG-STORY_1080x1920.jpg" download>INSTRUCTOR-05<span class="sz">1080×1920 · 227 KB</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_FB-LINK_1200x630.jpg" download>FB link image · 5 files, see folder<span class="sz">1200×630</span></a>
+<a href="assets/image/INSTRUCTOR-01_JULIE-GIBSON-CLARK_FB-LINK_1200x630.jpg" download>INSTRUCTOR-01<span class="sz">1200×630 · 113 KB</span></a>
+<a href="assets/image/INSTRUCTOR-02_COURTNEY-DONOFRIO_FB-LINK_1200x630.jpg" download>INSTRUCTOR-02<span class="sz">1200×630 · 144 KB</span></a>
+<a href="assets/image/INSTRUCTOR-03_AMY-JAMIESON_FB-LINK_1200x630.jpg" download>INSTRUCTOR-03<span class="sz">1200×630 · 164 KB</span></a>
+<a href="assets/image/INSTRUCTOR-04_JORDAN-LATTIMORE_FB-LINK_1200x630.jpg" download>INSTRUCTOR-04<span class="sz">1200×630 · 101 KB</span></a>
+<a href="assets/image/INSTRUCTOR-05_NATALIE-BLACKBOURNE_FB-LINK_1200x630.jpg" download>INSTRUCTOR-05<span class="sz">1200×630 · 119 KB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">1554 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig20',this)">Copy</button></div><pre id="ig20">The Longevity Blueprint is taught by leading voices in longevity today. Meet your instructors.
+
+Julie Gibson Clark — Founding Faculty
+Ranked #2 in the world at the Rejuvenation Olympics. DunedinPACE 0.665, roughly eight months of biological aging per calendar year, on everyday fundamentals anyone can follow.
+
+Courtney Donofrio — Integrative Nutrition Health Coach
+Certified Integrative Nutrition Health Coach and founder of EatBiohackLove. Based in Amsterdam, originally from the United States. Her own recovery from chronic mold and mycotoxin exposure drove her into functional medicine and root-cause healing.
+
+Amy Jamieson — Senior Lecturer, UC Santa Barbara
+Health educator and university lecturer with more than 25 years in higher education, health sciences, fitness, and behavior-change education. Lifelong athlete and master competitive runner.
+
+Jordan Lattimore — Behavioral &amp; Education Specialist
+Twelve years in Costa Rica near the Nicoya Peninsula, one of the world&#x27;s recognized Blue Zones. Background in psychology, behavioral support, and mental health.
+
+Natalie Blackbourne — Longevity Researcher &amp; Educator
+Researcher, biohacker, and educator focused on longevity, neuroscience, nutrition, and cognitive performance, translating complex science into sustainable lifestyle change.
+
+18 weeks, 18 live sessions, classes of 8-15.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #faculty #longevitycoach #RejuvenationOlympics #JulieGibsonClark</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">1444 / 63,206 characters</span><button class="copybtn" onclick="cp('fb20',this)">Copy</button></div><pre id="fb20">The Longevity Blueprint is taught by leading voices in longevity today. Meet your instructors.
+
+Julie Gibson Clark — Founding Faculty
+Ranked #2 in the world at the Rejuvenation Olympics. DunedinPACE 0.665, roughly eight months of biological aging per calendar year, on everyday fundamentals anyone can follow.
+
+Courtney Donofrio — Integrative Nutrition Health Coach
+Certified Integrative Nutrition Health Coach and founder of EatBiohackLove. Based in Amsterdam, originally from the United States. Her own recovery from chronic mold and mycotoxin exposure drove her into functional medicine and root-cause healing.
+
+Amy Jamieson — Senior Lecturer, UC Santa Barbara
+Health educator and university lecturer with more than 25 years in higher education, health sciences, fitness, and behavior-change education. Lifelong athlete and master competitive runner.
+
+Jordan Lattimore — Behavioral &amp; Education Specialist
+Twelve years in Costa Rica near the Nicoya Peninsula, one of the world&#x27;s recognized Blue Zones. Background in psychology, behavioral support, and mental health.
+
+Natalie Blackbourne — Longevity Researcher &amp; Educator
+Researcher, biohacker, and educator focused on longevity, neuroscience, nutrition, and cognitive performance, translating complex science into sustainable lifestyle change.
+
+Full faculty profiles: https://www.longevitylifeacademy.com
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com" target="_blank" rel="noopener">https://www.longevitylifeacademy.com</a> — Faculty pages on our site</div>
+<div><b>Instructor pages:</b> <a href="https://www.longevitylifeacademy.com/teachers/julie-gibson-clark.html" target="_blank" rel="noopener">Julie Gibson Clark</a> · <a href="https://www.longevitylifeacademy.com/teachers/courtney.html" target="_blank" rel="noopener">Courtney Donofrio</a> · <a href="https://www.longevitylifeacademy.com/teachers/amy.html" target="_blank" rel="noopener">Amy Jamieson</a> · <a href="https://www.longevitylifeacademy.com/teachers/jordan.html" target="_blank" rel="noopener">Jordan Lattimore</a> · <a href="https://www.longevitylifeacademy.com/teachers/natalie.html" target="_blank" rel="noopener">Natalie Blackbourne</a></div>
+<div><b>Story version:</b> Story set (1080x1920): post the 5 _IG-STORY_1080x1920.jpg files as a 5-frame story sequence, one instructor per frame.</div>
+<div><b>Tagging:</b> Tag / mention: do not tag any instructor&#x27;s personal account unless they have confirmed the handle. Courtney&#x27;s brand is EatBiohackLove (instagram.com/eatbiohacklove), tag only with her approval.</div>
+<div><b>Notes:</b> Carousel order is fixed: Julie first. Each instructor&#x27;s own faculty page URL is listed in this file if you want to add a per-frame link sticker in Stories.</div>
+<div><b>Full instructions file:</b> <a href="posts/20_INSTRUCTORS.md">posts/20_INSTRUCTORS.md</a></div>
+</div></div></div>
+<h2 class="group" id="motion-posts">Motion posts</h2>
+<p class="groupsub">Three motion pieces already produced for the site. No static banners.</p>
+<div class="card"><div class="chead">
+<div class="cnum">21</div><h3>Your protocol, on one screen</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/MOTION-01_PROTOCOL-DASHBOARD_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/MOTION-01_PROTOCOL-DASHBOARD_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 1.9 MB</span></a>
+<a href="assets/video/MOTION-01_PROTOCOL-DASHBOARD_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.5 MB</span></a>
+<a href="assets/video/MOTION-01_PROTOCOL-DASHBOARD_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 911 KB</span></a>
+<a href="assets/video/MOTION-01_PROTOCOL-DASHBOARD_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.6 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">534 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig21',this)">Copy</button></div><pre id="ig21">Your protocol, on one screen
+
+Bloodwork, wearables, and daily inputs in one individualised plan you own and keep iterating. This is Medicine 3.0 in practice: every intervention measured, owned, and adjusted to your biology.
+
+18 weeks, 18 live sessions, classes of 8-15. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #personalizedmedicine #medicine3point0 #ApoB #biomarkers #bloodwork</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">441 / 63,206 characters</span><button class="copybtn" onclick="cp('fb21',this)">Copy</button></div><pre id="fb21">Your protocol, on one screen
+
+Bloodwork, wearables, and daily inputs in one individualised plan you own and keep iterating. This is Medicine 3.0 in practice: every intervention measured, owned, and adjusted to your biology.
+
+Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, $289/mo. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/protocols-habits.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/protocols-habits.html</a> — Learn more</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com/topics/protocols-habits.html.</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> MOTION-01 carries an audio track from the source file. Keep it, or mute on upload, either is fine.</div>
+<div><b>Full instructions file:</b> <a href="posts/21_MOTION-PROTOCOL-DASHBOARD.md">posts/21_MOTION-PROTOCOL-DASHBOARD.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">22</div><h3>Glucose is a signal, not a villain</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/MOTION-02_GLUCOSE-MITOCHONDRIA_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/MOTION-02_GLUCOSE-MITOCHONDRIA_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 3.3 MB</span></a>
+<a href="assets/video/MOTION-02_GLUCOSE-MITOCHONDRIA_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 2.5 MB</span></a>
+<a href="assets/video/MOTION-02_GLUCOSE-MITOCHONDRIA_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 2.1 MB</span></a>
+<a href="assets/video/MOTION-02_GLUCOSE-MITOCHONDRIA_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.7 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">557 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig22',this)">Copy</button></div><pre id="ig22">Glucose is a signal, not a villain
+
+Silent metabolic dysfunction shows up in normal-weight people, and fasting glucose alone misses most of the picture. Variability, time-in-range, and metabolic flexibility are where the real information lives.
+
+18 weeks, 18 live sessions, classes of 8-15. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #CGM #glucose #metabolichealth #AbbottLingo #continuousglucosemonitor</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">462 / 63,206 characters</span><button class="copybtn" onclick="cp('fb22',this)">Copy</button></div><pre id="fb22">Glucose is a signal, not a villain
+
+Silent metabolic dysfunction shows up in normal-weight people, and fasting glucose alone misses most of the picture. Variability, time-in-range, and metabolic flexibility are where the real information lives.
+
+Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, $289/mo. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html" target="_blank" rel="noopener">https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html</a> — Learn more</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com/topics/metabolic-health-blood-sugar.html.</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> MOTION-01 carries an audio track from the source file. Keep it, or mute on upload, either is fine.</div>
+<div><b>Full instructions file:</b> <a href="posts/22_MOTION-GLUCOSE.md">posts/22_MOTION-GLUCOSE.md</a></div>
+</div></div></div>
+<div class="card"><div class="chead">
+<div class="cnum">23</div><h3>Learn to read your own signals</h3>
+<span class="badge ig">IG · Reel (video) + Story</span>
+<span class="badge fb">FB · Video post (16:9 native)</span>
+</div><div class="cbody"><div class="prev">
+<video src="assets/video/MOTION-03_READING-BODY-SIGNALS_IG-REEL-STORY_1080x1920.mp4" controls muted loop playsinline preload="metadata"></video>
+<div class="filelist">
+<a href="assets/video/MOTION-03_READING-BODY-SIGNALS_IG-REEL-STORY_1080x1920.mp4" download>IG Reel + Story / FB Reel<span class="sz">1080×1920 · 2.5 MB</span></a>
+<a href="assets/video/MOTION-03_READING-BODY-SIGNALS_IG-FEED_1080x1350.mp4" download>Instagram feed<span class="sz">1080×1350 · 1.9 MB</span></a>
+<a href="assets/video/MOTION-03_READING-BODY-SIGNALS_SQUARE_1080x1080.mp4" download>Square<span class="sz">1080×1080 · 1.3 MB</span></a>
+<a href="assets/video/MOTION-03_READING-BODY-SIGNALS_FB-FEED_1280x720.mp4" download>Facebook feed video (native 16:9)<span class="sz">native · 1.2 MB</span></a>
+</div></div><div>
+<div class="block"><div class="blabel"><h4>Instagram caption</h4><span class="count">526 / 2,200 characters · 11 hashtags / 30</span><button class="copybtn" onclick="cp('ig23',this)">Copy</button></div><pre id="ig23">Learn to read your own signals
+
+Energy, mobility, mental clarity, and emotional resilience are measurable. We teach you the field-ready self-assessments with evidence behind them, then build your baseline in week one.
+
+18 weeks, 18 live sessions, classes of 8-15. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Link in bio to apply.
+
+Not medical advice. Education only.
+
+#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #longevityblog #evidencebased #healthspan #agingscience #wellness</pre></div>
+<div class="block"><div class="blabel"><h4>Facebook caption</h4><span class="count">435 / 63,206 characters</span><button class="copybtn" onclick="cp('fb23',this)">Copy</button></div><pre id="fb23">Learn to read your own signals
+
+Energy, mobility, mental clarity, and emotional resilience are measurable. We teach you the field-ready self-assessments with evidence behind them, then build your baseline in week one.
+
+Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, $289/mo. Rated 4.6/5 on Trustpilot, 600+ verified reviews.
+
+Apply here: https://www.longevitylifeacademy.com
+
+Not medical advice. Education only.</pre></div>
+<div class="meta">
+<div><b>Link to use:</b> <a href="https://www.longevitylifeacademy.com" target="_blank" rel="noopener">https://www.longevitylifeacademy.com</a> — Learn more</div>
+<div><b>Story version:</b> Story (1080x1920): same Reel file. LINK sticker to https://www.longevitylifeacademy.com.</div>
+<div><b>Tagging:</b> Tag / mention: none required.</div>
+<div><b>Notes:</b> MOTION-01 carries an audio track from the source file. Keep it, or mute on upload, either is fine.</div>
+<div><b>Full instructions file:</b> <a href="posts/23_MOTION-BODY-SIGNALS.md">posts/23_MOTION-BODY-SIGNALS.md</a></div>
+</div></div></div>
+<footer><div><b>Longevity Life Academy by eTeacher Group</b> — organic social go-live pack, 5 August 2026.</div><div>All video and photography in this pack comes from the live website and from cleared instructor photography. Course facts used in captions: 18 weeks, 18 live sessions, classes of 8–15, $289/month, Abbott Lingo CGM included for U.S. students, 4.6/5 on Trustpilot across 600+ verified reviews.</div><div>Website: <a href="https://www.longevitylifeacademy.com">https://www.longevitylifeacademy.com</a> · advisor@longevitylifeacademy.com · +1-888-230-5110</div><div>Not medical advice. Education only.</div></footer>
+</div><script>
+function cp(id,btn){var t=document.getElementById(id).innerText;
+ (navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){ok(btn)},function(){
+  var ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();
+  try{document.execCommand('copy');ok(btn)}catch(e){alert('Select the text and press Ctrl+C')}document.body.removeChild(ta)});}
+function ok(b){var o=b.innerText;b.innerText='Copied';b.classList.add('done');setTimeout(function(){b.innerText=o;b.classList.remove('done')},1600);}
+</script></body></html>
