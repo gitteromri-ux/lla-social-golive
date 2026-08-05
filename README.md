@@ -17,7 +17,7 @@ Nothing in this repository needs to be designed, written, resized, or decided.
 | `posts/` | One markdown file per post: files to upload, both captions, link, story version, tagging, notes. |
 | `assets/video/` | 56 video files. The file name states the placement and the exact pixel size. |
 | `assets/image/` | 76 image files. Same naming rule. |
-| `assets/brand/` | The exact LLA logo file from the website, for the profile photo. |
+| `assets/brand/` | The approved logo lockup (Longevity Life Academy by eTeacher Group), the profile photo and the Facebook cover. |
 
 ## File naming
 
