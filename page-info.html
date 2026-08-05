@@ -82,6 +82,14 @@ td.act{width:104px}
 .back{display:inline-block;margin-bottom:26px;font-size:13px;color:var(--dim)}
 h2.group{margin-top:70px}
 .overlimit{color:#FCA5A5;font-weight:700}
+a.dlrow{display:flex;align-items:center;gap:14px;border:1px solid var(--line);border-radius:12px;padding:11px 14px;background:rgba(0,0,0,.24)}
+a.dlrow:hover{background:rgba(126,200,255,.13);text-decoration:none}
+.thumbwrap{flex:0 0 84px;height:56px;border-radius:8px;overflow:hidden;background:#03101F;display:flex;align-items:center;justify-content:center}
+.thumbwrap img{width:100%;height:100%;object-fit:cover;display:block}
+.vicon{font-size:11px;letter-spacing:.14em;color:var(--sky);font-weight:700}
+.dlname{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#E8EEF6;word-break:break-all}
+a.dlbtn{display:inline-block;text-decoration:none;text-align:center}
+a.dlbtn:hover{text-decoration:none}
 </style></head><body>
 <header class="hero"><div class="wrap">
 <a class="back" href="index.html">← Back to the 23 posts</a>
@@ -89,13 +97,13 @@ h2.group{margin-top:70px}
 <h1>Page <em>Information</em></h1>
 <p class="lede">Every field on the Facebook Page and the Instagram profile, already written and already character-checked against each field's real limit. Press Copy, paste, move to the next row. Every value comes from our website or from our verified press coverage. Nothing here is invented.</p>
 <div class="statbar">
-<div class="stat"><b>16</b><span>Instagram fields</span></div>
-<div class="stat"><b>21</b><span>Facebook fields</span></div>
+<div class="stat"><b>17</b><span>Instagram fields</span></div>
+<div class="stat"><b>23</b><span>Facebook fields</span></div>
 <div class="stat"><b>23</b><span>Verified links</span></div>
 <div class="stat"><b>2</b><span>Fields left empty on purpose</span></div>
 </div></div></header><div class="wrap">
 <h2 class="group" id="instagram">Instagram profile</h2>
-<p class="groupsub">Open this screen and fill the 16 rows below, in order.</p>
+<p class="groupsub">Open this screen and fill the 17 rows below, in order.</p>
 <a class="deep" href="https://www.instagram.com/accounts/edit/" target="_blank" rel="noopener">Open Instagram → Edit profile</a>
 <a class="deep ghost" href="https://www.instagram.com/accounts/edit/contact_options/" target="_blank" rel="noopener">Open contact options</a>
 <table class="fields"><tr><th></th><th>Field</th><th>Paste exactly this</th><th>Characters</th><th></th></tr>
@@ -116,10 +124,11 @@ Read your body&#x27;s signals. Build your protocol.
 <tr><td class="num">13</td><td class="fname">Contact — Phone</td><td class="val"><pre id="ig13">+1 888 230 5110</pre></td><td class="cnt">15 chars</td><td class="act"><button class="copybtn" onclick="cp('ig13',this)">Copy</button></td></tr>
 <tr><td class="num">14</td><td class="fname">Contact — Address<span class="note warn">LEAVE EMPTY. Our website publishes no street address. Do not invent one.</span></td><td class="val"><span class="warn">leave this field empty</span></td><td class="cnt">—</td><td class="act"></td></tr>
 <tr><td class="num">15</td><td class="fname">Action button<span class="note">Point it at https://www.longevitylifeacademy.com</span></td><td class="val"><pre id="ig15">Learn more</pre></td><td class="cnt">10 chars</td><td class="act"><button class="copybtn" onclick="cp('ig15',this)">Copy</button></td></tr>
-<tr><td class="num">16</td><td class="fname">Profile photo<span class="note">Our exact logo file from the website. Instagram crops to a circle, so upload it centred on a square canvas with padding. Never crop the wordmark.</span></td><td class="val"><pre id="ig16">assets/brand/lla-logo.png</pre></td><td class="cnt">25 chars</td><td class="act"><button class="copybtn" onclick="cp('ig16',this)">Copy</button></td></tr>
+<tr><td class="num">16</td><td class="fname">Profile photo<span class="note">Ready to upload as-is. 1080x1080, our exact logo already centred inside Instagram&#x27;s circular crop, so nothing gets cut. Do not resize it.</span></td><td class="val"><a class="dlrow" href="assets/brand/PROFILE-PHOTO_1080x1080.jpg" download><span class="thumbwrap"><img src="assets/brand/PROFILE-PHOTO_1080x1080.jpg" alt=""></span><span class="dlname">PROFILE-PHOTO_1080x1080.jpg</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/brand/PROFILE-PHOTO_1080x1080.jpg" download>Download</a></td></tr>
+<tr><td class="num">17</td><td class="fname">Profile photo (PNG version)<span class="note">Same image as a PNG. Use it only if Instagram rejects the JPEG.</span></td><td class="val"><a class="dlrow" href="assets/brand/PROFILE-PHOTO_1080x1080.png" download><span class="thumbwrap"><img src="assets/brand/PROFILE-PHOTO_1080x1080.png" alt=""></span><span class="dlname">PROFILE-PHOTO_1080x1080.png</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/brand/PROFILE-PHOTO_1080x1080.png" download>Download</a></td></tr>
 </table>
 <h2 class="group" id="facebook">Facebook Page</h2>
-<p class="groupsub">Open this screen and fill the 21 rows below, in order.</p>
+<p class="groupsub">Open this screen and fill the 23 rows below, in order.</p>
 <a class="deep" href="https://www.facebook.com/settings/?tab=page_info" target="_blank" rel="noopener">Open Facebook → Page info</a>
 <a class="deep ghost" href="https://www.facebook.com/settings/?tab=basic" target="_blank" rel="noopener">Open Page settings</a>
 <table class="fields"><tr><th></th><th>Field</th><th>Paste exactly this</th><th>Characters</th><th></th></tr>
@@ -150,8 +159,10 @@ Not medical advice. Education only.</pre></td><td class="cnt">622 chars</td><td 
 <tr><td class="num">17</td><td class="fname">Products</td><td class="val"><pre id="fb17">The Longevity Blueprint - 18-week live longevity course, $289/month. Includes a free Abbott Lingo CGM for U.S. students.</pre></td><td class="cnt">120 chars</td><td class="act"><button class="copybtn" onclick="cp('fb17',this)">Copy</button></td></tr>
 <tr><td class="num">18</td><td class="fname">Impressum</td><td class="val"><pre id="fb18">© 2026 eTeacher Group · Longevity Life Academy</pre></td><td class="cnt">46 chars</td><td class="act"><button class="copybtn" onclick="cp('fb18',this)">Copy</button></td></tr>
 <tr><td class="num">19</td><td class="fname">Action button<span class="note">Point it at https://www.longevitylifeacademy.com</span></td><td class="val"><pre id="fb19">Learn more</pre></td><td class="cnt">10 chars</td><td class="act"><button class="copybtn" onclick="cp('fb19',this)">Copy</button></td></tr>
-<tr><td class="num">20</td><td class="fname">Profile photo<span class="note">Same exact logo file as Instagram.</span></td><td class="val"><pre id="fb20">assets/brand/lla-logo.png</pre></td><td class="cnt">25 chars</td><td class="act"><button class="copybtn" onclick="cp('fb20',this)">Copy</button></td></tr>
-<tr><td class="num">21</td><td class="fname">Cover video (optional, recommended)<span class="note">Already exported at Facebook cover-video size.</span></td><td class="val"><pre id="fb21">assets/video/MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4</pre></td><td class="cnt">59 chars</td><td class="act"><button class="copybtn" onclick="cp('fb21',this)">Copy</button></td></tr>
+<tr><td class="num">20</td><td class="fname">Profile photo<span class="note">The same file used on Instagram, so both profiles match exactly.</span></td><td class="val"><a class="dlrow" href="assets/brand/PROFILE-PHOTO_1080x1080.jpg" download><span class="thumbwrap"><img src="assets/brand/PROFILE-PHOTO_1080x1080.jpg" alt=""></span><span class="dlname">PROFILE-PHOTO_1080x1080.jpg</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/brand/PROFILE-PHOTO_1080x1080.jpg" download>Download</a></td></tr>
+<tr><td class="num">21</td><td class="fname">Cover photo<span class="note">1640x924, built so the logo and the offer line sit inside Facebook&#x27;s desktop and mobile safe area. Upload without cropping.</span></td><td class="val"><a class="dlrow" href="assets/brand/FB-COVER_1640x924.jpg" download><span class="thumbwrap"><img src="assets/brand/FB-COVER_1640x924.jpg" alt=""></span><span class="dlname">FB-COVER_1640x924.jpg</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/brand/FB-COVER_1640x924.jpg" download>Download</a></td></tr>
+<tr><td class="num">22</td><td class="fname">Cover video (optional, instead of the cover photo)<span class="note">Already exported at Facebook cover-video size.</span></td><td class="val"><a class="dlrow" href="assets/video/MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4" download><span class="thumbwrap"><span class="vicon">MP4</span></span><span class="dlname">MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/video/MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4" download>Download</a></td></tr>
+<tr><td class="num">23</td><td class="fname">Logo on navy (for any partner or press use)<span class="note">Our exact site logo asset. Never redraw or recolour the logo.</span></td><td class="val"><a class="dlrow" href="assets/brand/LOGO-ON-NAVY.jpg" download><span class="thumbwrap"><img src="assets/brand/LOGO-ON-NAVY.jpg" alt=""></span><span class="dlname">LOGO-ON-NAVY.jpg</span></a></td><td class="cnt">file</td><td class="act"><a class="copybtn dlbtn" href="assets/brand/LOGO-ON-NAVY.jpg" download>Download</a></td></tr>
 </table>
 <h2 class="group" id="links">Our links</h2>
 <p class="groupsub">Every one of these was opened and confirmed live today. Add the first eight to both profiles. The rest are for captions and Stories.</p>
