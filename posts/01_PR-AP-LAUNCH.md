@@ -1,73 +1,71 @@
-# 01_PR-AP-LAUNCH — AP News — Longevity Life Academy launch
+# POST 01 — We are on AP News — the launch
 
-**Group:** Press  
-**Instagram:** Reel (video)  
-**Facebook:** Link post (Facebook pulls the article image automatically)
+**Section:** Press & Launch
 
----
+**Instagram format:** Feed photo (4:5) + Story  
+**Facebook format:** Link post (paste the AP link — FB pulls the preview)
 
-## 1. Files to upload
+## Files
 
-| Platform / placement | File | Size |
-|---|---|---|
-| Facebook feed video (16:9 native, sharpest) | `assets/video/MOTION-05_AGING-REVERSED_FB-FEED_1920x1080.mp4` | 1920x1080 |
-| Instagram feed (4:5) | `assets/video/MOTION-05_AGING-REVERSED_IG-FEED_1080x1350.mp4` | 1080x1350 |
-| Instagram Reel + Instagram Story + Facebook Reel/Story | `assets/video/MOTION-05_AGING-REVERSED_IG-REEL-STORY_1080x1920.mp4` | 1080x1920 |
-| Square (1:1) — use if a square is requested | `assets/video/MOTION-05_AGING-REVERSED_SQUARE_1080x1080.mp4` | 1080x1080 |
+| File | Placement |
+|---|---|
+| `assets/image/PR-LAUNCH-AP_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
+| `assets/image/PR-LAUNCH-AP_IG-STORY_1080x1920.jpg` | IG-STORY 1080x1920 |
+| `assets/image/PR-LAUNCH-AP_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
+| `assets/image/PR-LAUNCH-AP_FB-LINK_1200x630.jpg` | FB-LINK 1200x630 |
 
-## 2. Instagram caption — copy everything between the lines
-
-Characters: **827** / 2,200 limit. Hashtags: **10** / 30 limit.
+## Instagram caption (998 chars — limit 2,200)
 
 ```text
-We are on AP News.
+BREAKING: We are on AP News.
 
-eTeacher Group has opened its sixth online school: Longevity Life Academy, bringing science-backed healthy aging to U.S. households through certified instructors.
+eTeacher Group — 25 years of live online education, 400,000+ courses completed across nearly 200 countries — has opened its sixth online school: Longevity Life Academy.
 
-From the article: UBS projects the longevity market will reach roughly $8 trillion by 2030, up from $5.3 trillion in 2023. eTeacher enters from a position of strength, with more than 10,000 learners a year and roughly 70% of its customers already in the United States.
+From the article: UBS projects the longevity market will reach roughly $8 TRILLION by 2030. The protocols driving it have been locked inside concierge clinics that charge six and seven figures.
 
-This is the course that turns that science into your own protocol: 18 weeks, 18 live sessions, classes of 8-15, and a personal longevity plan built on your own numbers.
+We built the school that changes that. Live teachers. Real biomarker data. A protocol you keep for life.
 
-Read the full story, link in bio.
+THE LONGEVITY BLUEPRINT — our flagship live online course:
+▪ 18 weeks · 18 live sessions · small class of 8–15
+▪ Free Abbott Lingo CGM shipped to your home before Lesson 5
+▪ A written longevity protocol built from YOUR data
+▪ $289/month × 5 — or $1,249 upfront (save $196)
+
+Enroll now → link in bio · longevitylifeacademy.com
 
 Not medical advice. Education only.
 
-#longevity #healthspan #healthyaging #biohacking #LongevityLifeAcademy #eTeacherGroup #press #launch #longevitymarket #agingscience
+#Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #APNews #Press #LongevityMarket #OnlineLearning #Biohacking
 ```
 
-## 3. Facebook caption — copy everything between the lines
-
-Characters: **803** / 63,206 limit.
+## Facebook caption (1022 chars)
 
 ```text
-We are on AP News.
+BREAKING: We are on AP News.
 
-eTeacher Group has opened its sixth online school: Longevity Life Academy, bringing science-backed healthy aging to U.S. households through certified instructors.
+eTeacher Group — 25 years of live online education, 400,000+ courses completed across nearly 200 countries — has opened its sixth online school: Longevity Life Academy.
 
-From the article: UBS projects the longevity market will reach roughly $8 trillion by 2030, up from $5.3 trillion in 2023. eTeacher enters from a position of strength, with more than 10,000 learners a year and roughly 70% of its customers already in the United States.
+From the article: UBS projects the longevity market will reach roughly $8 TRILLION by 2030. Until now, the protocols driving it were locked inside concierge clinics charging six and seven figures.
 
-Longevity Life Academy is 18 weeks, 18 live sessions, classes of 8-15, and a personal protocol built on your own biomarkers.
+We built the school that changes that. Live teachers. Real biomarker data. A written protocol you keep for life.
 
 Read the full story on AP News: https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48
 
-Apply here: https://www.longevitylifeacademy.com
+THE LONGEVITY BLUEPRINT — our flagship live online course:
+▪ 18 weeks · 18 live sessions · small class of 8–15
+▪ Free Abbott Lingo CGM shipped to your home before Lesson 5
+▪ A written longevity protocol built from YOUR data
+▪ $289/month × 5 — or $1,249 upfront (save $196)
+
+Enroll now: https://www.longevitylifeacademy.com/pricing.html
 
 Not medical advice. Education only.
 ```
 
-## 4. Link
+## Links
 
-- **URL:** https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48
-- **What it is:** AP News, 20 July 2026
+- [AP News article](https://apnews.com/press-release/ein-presswire-newsmatics/press-release-df2283f31104321eae816839632a3c48)
 
-## 5. Story version
+## Posting notes
 
-Story (1080x1920): use the same Reel file. Add a LINK sticker to the AP News URL. Sticker text: Read the AP story
-
-## 6. Tagging
-
-Tag / mention: @apnews (Facebook: @APNews). Tag eTeacher Group's page if it is linked to this account.
-
-## 7. Technician notes
-
-Facebook: paste the AP URL into the composer FIRST, wait for the preview card to load, then paste the caption above and delete the raw URL line if you prefer a clean look. Do not upload a separate image for the FB post, the link preview is the image.
+Tag @apnews in the first comment, not the caption. Story: add link sticker → AP article.
