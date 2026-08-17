@@ -3,16 +3,13 @@
 **Section:** Julie Gibson Clark
 
 **Instagram format:** Reel (9:16) — 65s film  
-**Facebook format:** Feed video (16:9, blur-framed)
+**Facebook format:** Facebook Reels / feed video — upload the same 9:16 master (native vertical, no crop)
 
 ## Files
 
 | File | Placement |
 |---|---|
-| `assets/video/JULIE-65_LEADING-VOICES_IG-FEED_1080x1350.mp4` | IG-FEED 1080x1350 |
 | `assets/video/JULIE-65_LEADING-VOICES_IG-REEL-STORY_1080x1920.mp4` | IG-REEL-STORY 1080x1920 |
-| `assets/video/JULIE-65_LEADING-VOICES_SQUARE_1080x1080.mp4` | SQUARE 1080x1080 |
-| `assets/video/JULIE-65_LEADING-VOICES_FB-FEED_1920x1080.mp4` | FB-FEED 1920x1080 |
 
 ## Instagram caption (946 chars — limit 2,200)
 
