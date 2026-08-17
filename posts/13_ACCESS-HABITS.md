@@ -40,7 +40,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Habits #Routines #BusyLife #50Minutes #LongevityForAll
 ```
 
-## Facebook caption (973 chars)
+## Facebook caption (960 chars)
 
 ```text
 You don't need a $2M lab. You need 50 minutes a week and the right routines.
@@ -61,7 +61,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

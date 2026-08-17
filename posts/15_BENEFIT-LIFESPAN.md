@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Healthspan #Lifespan #AgingWell #LiveLonger #PreventiveHealth
 ```
 
-## Facebook caption (878 chars)
+## Facebook caption (865 chars)
 
 ```text
 The goal isn't to be old longer. It's to be YOUNG longer.
@@ -57,7 +57,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

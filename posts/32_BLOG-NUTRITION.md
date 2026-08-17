@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Nutrition #PersonalizedNutrition #GlucoseResponse #NoMoreDiets #LongevityBlog
 ```
 
-## Facebook caption (811 chars)
+## Facebook caption (798 chars)
 
 ```text
 The same breakfast spikes your friend and barely moves you. Diets ignore that. Data doesn't.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

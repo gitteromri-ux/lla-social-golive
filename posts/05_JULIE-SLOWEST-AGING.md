@@ -46,7 +46,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #JulieGibsonClark #BryanJohnson #RejuvenationOlympics #DunedinPACE #SlowAging
 ```
 
-## Facebook caption (957 chars)
+## Facebook caption (944 chars)
 
 ```text
 He spends ~$2,000,000 a year to slow aging. She out-ranked him with a $100/month routine.
@@ -65,7 +65,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

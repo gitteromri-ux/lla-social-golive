@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #StrengthTraining #Muscle #HealthyAging #CentenarianOlympics #LongevityBlog
 ```
 
-## Facebook caption (722 chars)
+## Facebook caption (709 chars)
 
 ```text
 Will you be able to lift your suitcase at 80? That's decided at 45.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #APNews #Press #LongevityMarket #OnlineLearning #Biohacking
 ```
 
-## Facebook caption (1022 chars)
+## Facebook caption (1009 chars)
 
 ```text
 BREAKING: We are on AP News.
@@ -57,7 +57,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

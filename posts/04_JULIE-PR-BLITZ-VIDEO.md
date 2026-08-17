@@ -36,7 +36,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #JulieGibsonClark #PressBlitz #RejuvenationOlympics #FoundingFaculty #Reels
 ```
 
-## Facebook caption (881 chars)
+## Facebook caption (868 chars)
 
 ```text
 The press went into a frenzy. Sound on. 🔊
@@ -53,7 +53,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

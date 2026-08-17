@@ -37,7 +37,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #BiologicalAge #BioAge #LongevityQuiz #HealthCheck #KnowYourNumbers
 ```
 
-## Facebook caption (824 chars)
+## Facebook caption (811 chars)
 
 ```text
 Your driver's license has one age. Your body has another. Which one is running your future?
@@ -54,7 +54,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Protocol #LongevityBlueprint #Personalized #Graduation #SixPillars
 ```
 
-## Facebook caption (787 chars)
+## Facebook caption (774 chars)
 
 ```text
 The final exam is a document: your personal longevity protocol. You keep it for life.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

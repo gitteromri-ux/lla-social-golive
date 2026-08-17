@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #HeartHealth #Cardio #VO2Max #Cholesterol #Prevention
 ```
 
-## Facebook caption (918 chars)
+## Facebook caption (905 chars)
 
 ```text
 Cardiovascular disease is the #1 killer on Earth. It's also one of the most preventable.
@@ -57,7 +57,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

@@ -45,7 +45,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #JulieGibsonClark #RejuvenationOlympics #YahooFinance #USAToday #FoundingFaculty
 ```
 
-## Facebook caption (1152 chars)
+## Facebook caption (1139 chars)
 
 ```text
 Yahoo Finance. USA TODAY. Business Insider. Fortune. All in one week. All about one signing.
@@ -63,7 +63,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

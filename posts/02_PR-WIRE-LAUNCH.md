@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Press #LongevityForAll #HealthEquity #Biohacking #LiveLearning
 ```
 
-## Facebook caption (994 chars)
+## Facebook caption (981 chars)
 
 ```text
 “The longevity protocol the wealthy pay millions for.” — the press, about us.
@@ -55,7 +55,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

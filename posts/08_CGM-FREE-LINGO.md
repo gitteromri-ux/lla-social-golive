@@ -46,7 +46,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #CGM #AbbottLingo #GlucoseMonitoring #Biomarkers #MetabolicHealth
 ```
 
-## Facebook caption (939 chars)
+## Facebook caption (926 chars)
 
 ```text
 Every student gets this shipped to their door. FREE. Before Lesson 5.
@@ -63,7 +63,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #AntiAging #SkinHealth #Glycation #SleepBetter #AgeSlower
 ```
 
-## Facebook caption (898 chars)
+## Facebook caption (885 chars)
 
 ```text
 Your skin, your eyes, your posture — aging shows up on the outside years after it starts on the inside.
@@ -57,7 +57,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

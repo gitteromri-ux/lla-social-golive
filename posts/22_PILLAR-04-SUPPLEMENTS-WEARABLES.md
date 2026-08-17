@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Supplements #Wearables #BloodTesting #HealthTech #SixPillars
 ```
 
-## Facebook caption (720 chars)
+## Facebook caption (707 chars)
 
 ```text
 Half the supplement aisle is marketing. Your bloodwork knows which half.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

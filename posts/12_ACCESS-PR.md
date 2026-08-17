@@ -42,7 +42,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #LongevityForAll #HealthEquity #AccessibleHealth #Press #USAToday
 ```
 
-## Facebook caption (1101 chars)
+## Facebook caption (1088 chars)
 
 ```text
 For a decade, longevity science had a price tag only the elite could pay. The press says that just changed.
@@ -63,7 +63,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

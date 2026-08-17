@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #MentalHealth #StressResponse #Cortisol #MindBody #LongevityBlog
 ```
 
-## Facebook caption (754 chars)
+## Facebook caption (741 chars)
 
 ```text
 Chronic stress ages you at the cellular level. Literally.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

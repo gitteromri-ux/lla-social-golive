@@ -38,7 +38,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #Energy #NoMoreCrash #GlucoseSpikes #MetabolicFlexibility #FeelBetter
 ```
 
-## Facebook caption (890 chars)
+## Facebook caption (877 chars)
 
 ```text
 The 3pm crash isn't a personality trait. It's a glucose curve — and curves can be flattened.
@@ -57,7 +57,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```

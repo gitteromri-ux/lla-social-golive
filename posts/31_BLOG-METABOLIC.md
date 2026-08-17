@@ -34,7 +34,7 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #MetabolicHealth #BloodSugar #GlucoseVariability #CGM #LongevityBlog
 ```
 
-## Facebook caption (791 chars)
+## Facebook caption (778 chars)
 
 ```text
 One number connects your energy, your weight, your skin and your aging speed.
@@ -49,7 +49,7 @@ THE LONGEVITY BLUEPRINT — our flagship live online course:
 ▪ A written longevity protocol built from YOUR data
 ▪ $289/month × 5 — or $1,249 upfront (save $196)
 
-Enroll now: https://www.longevitylifeacademy.com/pricing.html
+Enroll now: https://www.longevitylifeacademy.com
 
 Not medical advice. Education only.
 ```
