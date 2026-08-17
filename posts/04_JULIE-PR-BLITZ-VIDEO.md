@@ -14,12 +14,12 @@
 | `assets/video/PRVID-01_JULIE-PR-BLITZ_SQUARE_1080x1080.mp4` | SQUARE 1080x1080 |
 | `assets/video/PRVID-01_JULIE-PR-BLITZ_FB-FEED_1920x1080.mp4` | FB-FEED 1920x1080 |
 
-## Instagram caption (918 chars — limit 2,200)
+## Instagram caption (905 chars — limit 2,200)
 
 ```text
 The press went into a frenzy. Sound on. 🔊
 
-One signing. One week. Yahoo Finance, USA TODAY, Business Insider, Fortune and the national wire — all covering the same story: Julie Gibson Clark, the 2nd slowest-aging woman on Earth, is now founding faculty at Longevity Life Academy.
+One signing. One week. Yahoo Finance, USA TODAY, Barchart and the national newswire — all covering the same story: Julie Gibson Clark, the 2nd slowest-aging woman on Earth, is now founding faculty at Longevity Life Academy.
 
 Why it matters for you: her method — simple, consistent, repeatable — is exactly what she teaches inside our live classes.
 
@@ -36,12 +36,12 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #JulieGibsonClark #PressBlitz #RejuvenationOlympics #FoundingFaculty #Reels
 ```
 
-## Facebook caption (868 chars)
+## Facebook caption (855 chars)
 
 ```text
 The press went into a frenzy. Sound on. 🔊
 
-One signing. One week. Yahoo Finance, USA TODAY, Business Insider, Fortune and the national wire — all covering the same story: Julie Gibson Clark, the 2nd slowest-aging woman on Earth, is now founding faculty at Longevity Life Academy.
+One signing. One week. Yahoo Finance, USA TODAY, Barchart and the national newswire — all covering the same story: Julie Gibson Clark, the 2nd slowest-aging woman on Earth, is now founding faculty at Longevity Life Academy.
 
 Her method — simple, consistent, repeatable — is exactly what she teaches inside our live classes.
 

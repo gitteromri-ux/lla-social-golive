@@ -2,7 +2,7 @@
 
 **Section:** Press & Launch
 
-**Instagram format:** Carousel — 6 slides (4:5)  
+**Instagram format:** Carousel — 4 slides (4:5)  
 **Facebook format:** Multi-photo post
 
 ## Files
@@ -11,22 +11,21 @@
 |---|---|
 | `assets/image/JULIEPR-01_YAHOO-FINANCE_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
 | `assets/image/JULIEPR-02_USA-TODAY_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
-| `assets/image/JULIEPR-03_BUSINESS-INSIDER_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
-| `assets/image/JULIEPR-04_FORTUNE_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
-| `assets/image/JULIEPR-05_YAHOO-LIFE_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
-| `assets/image/JULIEPR-06_EIN-PRESSWIRE_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
+| `assets/image/JULIEPR-03_BARCHART_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
+| `assets/image/JULIEPR-04_NEWSFILE_IG-FEED_1080x1350.jpg` | IG-FEED 1080x1350 |
 | `assets/image/JULIEPR-01_YAHOO-FINANCE_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
 | `assets/image/JULIEPR-02_USA-TODAY_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
-| `assets/image/JULIEPR-03_BUSINESS-INSIDER_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
-| `assets/image/JULIEPR-04_FORTUNE_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
-| `assets/image/JULIEPR-05_YAHOO-LIFE_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
-| `assets/image/JULIEPR-06_EIN-PRESSWIRE_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
+| `assets/image/JULIEPR-03_BARCHART_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
+| `assets/image/JULIEPR-04_NEWSFILE_SQUARE_1080x1080.jpg` | SQUARE 1080x1080 |
 | `assets/image/JULIEPR-01_YAHOO-FINANCE_IG-STORY_1080x1920.jpg` | IG-STORY 1080x1920 |
+| `assets/image/JULIEPR-02_USA-TODAY_IG-STORY_1080x1920.jpg` | IG-STORY 1080x1920 |
+| `assets/image/JULIEPR-03_BARCHART_IG-STORY_1080x1920.jpg` | IG-STORY 1080x1920 |
+| `assets/image/JULIEPR-04_NEWSFILE_IG-STORY_1080x1920.jpg` | IG-STORY 1080x1920 |
 
-## Instagram caption (989 chars — limit 2,200)
+## Instagram caption (991 chars — limit 2,200)
 
 ```text
-Yahoo Finance. USA TODAY. Business Insider. Fortune. All in one week. All about one signing. → Swipe.
+Yahoo Finance. USA TODAY. Barchart. The national wire. All in one week. All about one signing. → Swipe.
 
 Julie Gibson Clark — the 2nd slowest-aging woman on Earth, ranked #2 in the world on the Rejuvenation Olympics leaderboard for over a year, ahead of the contest's own founder — has joined Longevity Life Academy as FOUNDING FACULTY.
 
@@ -45,10 +44,10 @@ Not medical advice. Education only.
 #Longevity #Healthspan #HealthyAging #LongevityLifeAcademy #eTeacherGroup #JulieGibsonClark #RejuvenationOlympics #YahooFinance #USAToday #FoundingFaculty
 ```
 
-## Facebook caption (1139 chars)
+## Facebook caption (1141 chars)
 
 ```text
-Yahoo Finance. USA TODAY. Business Insider. Fortune. All in one week. All about one signing.
+Yahoo Finance. USA TODAY. Barchart. The national wire. All in one week. All about one signing.
 
 Julie Gibson Clark — the 2nd slowest-aging woman on Earth, ranked #2 in the world on the Rejuvenation Olympics leaderboard for over a year, ahead of the contest's own founder — has joined Longevity Life Academy as FOUNDING FACULTY.
 
@@ -72,7 +71,9 @@ Not medical advice. Education only.
 
 - [Yahoo Finance](https://finance.yahoo.com/healthcare/articles/julie-gibson-clark-2nd-slowest-195800053.html)
 - [USA TODAY](https://www.usatoday.com/press-release/story/38313/julie-gibson-clark-2nd-slowest-aging-woman-on-earth-joins-longevity-life-academy-by-eteacher-group-to-make-elite-longevity-accessible-to-americans/)
+- [Barchart](https://www.barchart.com/story/news/3429825/julie-gibson-clark-who-out-aged-bryan-johnson-at-the-rejuvenation-olympics-joins-eteacher-s-longevity-life-academy-faculty)
+- [TMX Newsfile wire](https://www.newsfilecorp.com/release/306583/Julie-Gibson-Clark-2nd-SlowestAging-Woman-on-Earth-Joins-Longevity-Life-Academy-by-eTeacher-Group-to-Make-Elite-Longevity-Accessible-to-Americans)
 
 ## Posting notes
 
-Carousel order: Yahoo Finance → USA TODAY → Business Insider → Fortune → Yahoo Life → EIN. Tag @juliegibsonclark on slide 1.
+Carousel order: Yahoo Finance → USA TODAY → Barchart → TMX Newsfile wire. All slides are real screenshots of the live articles. Tag @juliegibsonclark on slide 1.
